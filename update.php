@@ -1,3 +1,5 @@
+<?php include 'session_check.php'; ?>
+
 <?php
 // Check if matric is passed in the URL
 if (isset($_GET['matric'])) {
